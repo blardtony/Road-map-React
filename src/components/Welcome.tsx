@@ -1,5 +1,5 @@
 
-interface WelcomeProps {
+type WelcomeProps =  {
   message: string;
 }
 const Welcome = ( {message}: WelcomeProps ) => {
