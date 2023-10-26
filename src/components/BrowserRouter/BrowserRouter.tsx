@@ -5,6 +5,7 @@ import Welcome from "../Welcome/Welcome.tsx";
 import Accordion from "../Accordion/Accordion.tsx";
 import List from "../List/List.tsx";
 import ErrorPage from "../ErrorPage/ErrorPage.tsx";
+import Subscription from "../Subscription/Subscription.tsx";
 
 const router = [
   {
@@ -27,6 +28,10 @@ const router = [
       {
         path: "list",
         element: <List />
+      },
+      {
+        path: "subscription",
+        element: <Subscription />
       }
     ]
   }
